@@ -7,4 +7,6 @@ RUN apt-get update && apt-get install -y pptpd iptables
 COPY ./etc/pptpd.conf /etc/pptpd.conf
 COPY ./etc/ppp/pptpd-options /etc/ppp/pptpd-options
 
+EXPOSE 1723
+
 CMD ["pptpd", "--fg"]
