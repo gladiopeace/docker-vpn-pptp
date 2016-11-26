@@ -1,4 +1,4 @@
-FROM akkz/docker-ubuntu-chinese-resources
+FROM ubuntu:16.04
 MAINTAINER Akkz
 
 ENV DEBIAN_FRONTEND noninteractive
