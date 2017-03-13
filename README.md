@@ -1,6 +1,6 @@
 # VPN (PPTP) for Docker
 
-默认用户名Test，密码passwd
+默认用户名test，密码test
 
 如果需要修改密码可以自己link /etc/ppp/chap-secrets文件或在build时修改./etc下面的配置文件
 
