@@ -25,7 +25,7 @@ docker run \
   -v {local_path_to_chap_secrets}:/etc/ppp/chap-secrets \
   --net=host\
   --restart=always\
-  mobtitude/vpn-pptp
+  srzyhead/docker-vpn-pptp
 ````
 
 # 启动后的操作
